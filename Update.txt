@@ -1,0 +1,7 @@
+    Private Sub a4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles a4.Click
+        msMem.Visible = False
+        msDepo.Visible = False
+        msTrans.Visible = False
+        Me.Enabled = False
+        Logout.Visible = True
+    End Sub
